@@ -50,37 +50,6 @@ You do not need to install Java separately when using the bundled Windows versio
 
 **Requirements:** Windows 10/11 (64-bit).
 
-### Option 2: Run from Source Code
-
-**Prerequisites:**
-- JDK 17 or later
-- Apache Maven
-- Git (optional)
-
-Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-Navigate to the project directory:
-
-```bash
-cd Psycle
-```
-
-Build the project:
-
-```bash
-mvn clean package
-```
-
-Run the application using Maven:
-
-```bash
-mvn exec:java
-```
-
 ## 📁 Project Structure
 
 ```text
